@@ -1095,7 +1095,7 @@ addEventHandler( "onPlayerVehicleEnter", getRootElement(), function(vehicleid, s
 end)
 
 Welcome = "Добро пожаловать на GIG RP Server"
-mysql_connection = dbConnect( "mysql", "dbname=mtasa;host=176.9.143.231", "p277818_voda2", "8e9QyuUbg4", "share=0" )
+mysql_connection = dbConnect() // edit this
 
 
 -- id, name, password, email, ban, warn, money, admin, sex, level, exp, maxexp, leader, member, team, rank, house, vehicle, biz, skin, model, mats, drugs, vip, numbers, liccar, licboat, licfly, licgun, licbiz, admpass, bank, job
